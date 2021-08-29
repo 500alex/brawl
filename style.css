@@ -2,6 +2,7 @@
     width: 100%;
     background: #564d4d;
     padding-bottom: 24px;
+    min-height: 100vh;
 }
 .wrapper.grey {
     background: #564d4d; 
