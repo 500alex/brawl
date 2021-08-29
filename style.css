@@ -1,7 +1,7 @@
 .wrapper {
     width: 100%;
     background: #564d4d;
-    height: 100vh;
+    padding-bottom: 24px;
 }
 .wrapper.grey {
     background: #564d4d; 
@@ -57,4 +57,53 @@
 }
 .menu a:hover {
     opacity: .7;
+}
+
+.personage {
+    display: flex;
+    border: 1px solid #fff;
+    margin-bottom: 24px; 
+}
+.personage-description {
+    color: #fff;
+    font-size: 24px;
+    padding: 12px;
+}
+.personage-description__label {
+    text-transform: uppercase;
+}
+.personage-description__text {
+    font-size: 20px;
+}
+
+.person1 {
+    background: url(image/ems.jpg) no-repeat center;
+}
+.person2 {
+    background: url(image/Barly.jpg) no-repeat center;
+}
+.person3 {
+    background: url(image/RIKO.jpg) no-repeat center;
+}
+.person4 {
+    background: url(image/Edgar.jpg) no-repeat center;
+}
+.person5 {
+    background: url(image/Cquike.jpg) no-repeat center;
+}   
+.person6 {
+    background: url(image/Amber.jpg) no-repeat center;
+}    
+.person7 {
+    background: url(image/Bass.jpg) no-repeat center;
+}
+.personage-image {
+    margin-right: 24px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    background-size: cover;
+}
+.personage-image img {
+    width: 150px;
 }
